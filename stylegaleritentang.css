@@ -1,0 +1,150 @@
+    body {
+      margin: 0;
+	  padding: 0;
+	  width: 100%;
+	  width: 100%;
+  height: 100vh; /* Menetapkan tinggi body menjadi 100% dari viewport height */
+  display: flex;
+  flex-direction: column; /* Mengatur tata letak konten dalam kolom */
+  justify-content: space-between; /* Menempatkan konten di antara header dan footer */
+    }
+
+.outer {
+  flex: 1; /* Menggunakan sisa ruang yang tersedia dalam body */
+}
+
+   
+
+		div.gallery {
+		  margin-top: 2px;
+		  margin-left: 60px;
+		  border: 0px;
+		  float: left;
+		  width: 300px;
+		  height: 300px;
+		}
+		
+
+		div.gallery img {
+		  width: 100%;
+		  height: 300;
+		  width: 300;
+		}
+		 
+		div.desc {
+		 font-family: "Poppins", sans-serif;
+
+		  padding: 15px;
+		  text-align: center;
+		}
+		table {
+font-family: "Poppins", sans-serif;
+
+			font-size: 18px;
+		}
+		
+		.deskripsi {
+		width: 50%;
+		text-align: justify;
+		
+		}
+		.image {
+		width: 600;
+		height: 300;
+		margin-right:;
+		}
+
+
+div.gallery-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+div.gallery-row {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+div.gallery {
+  margin-top: 2px;
+  margin-left: 60px;
+  border: 0px;
+  width: 300px;
+  height: 300px;
+  transition: transform 0.5s;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #eb455f;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.arrow.disabled {
+  color: gray;
+  cursor: not-allowed;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-box {
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 30px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  overflow: hidden; /* Menambahkan properti overflow */
+}
+
+
+.image-box img {
+	margin-top: 25px;
+  max-width: 100%;
+  max-height: 100%;
+    object-fit: cover; /* Menambahkan properti object-fit */
+}
+
+.image-box p {
+  margin-top: 10px;
+   font-family: "Poppins", sans-serif;
+}
+.content {
+  padding: 20px;
+}
+
+.text-above-images {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.text-above-images h2 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+}

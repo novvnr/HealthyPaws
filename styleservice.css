@@ -1,0 +1,142 @@
+
+    * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color : #2b3467;
+}
+section {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f194c;
+  margin: 1em 0;
+}
+p {
+  color: #575a7b;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.icon-wrapper {
+  background-color: #2b3467;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+.card:hover {
+  background-position: 0 100%;
+}
+.card:hover .icon-wrapper {
+  background-color: #ffffff;
+  color: #eb455f;
+}
+.card:hover h3 {
+  color: #ffffff;
+}
+.card:hover p {
+  color: #f0f0f0;
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em 0em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+.table-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-image: url(service_kucing4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top -70px; /* Ubah nilai -20px sesuai dengan preferensi Anda */
+}
+
+
+.table-wrapper {
+width: 40%;
+border-radius: 10px;
+overflow: hidden;
+background-color: #ffffff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+border-radius: 5px;
+ position: relative;
+  z-index: 2;
+}
+
+th {
+background : #2b3467;
+color: #fff;
+padding: 10px;
+text-align: center;
+border: none;
+}
+
+td {
+background : #fff;
+padding: 10px;
+text-align: left;
+border: none;
+margin-left: 20px; /* Adjust the margin value to increase or decrease the space */
+}
+
+th:first-child {
+border-radius: 10px 0 0 0;
+}
+
+th:last-child {
+border-radius: 0 10px 0 0;
+}
+
+tr:first-child th {
+border-bottom: 2px solid #bdbdbd;
+}
+
+tr:nth-child(2n) {
+background-color: #f5f5f5;
+}
+
+  
